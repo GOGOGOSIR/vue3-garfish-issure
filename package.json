@@ -1,0 +1,30 @@
+{
+  "name": "vue3-garfish-issure",
+  "version": "1.0.0",
+  "description": "garfish issure",
+  "main": "''",
+  "scripts": {
+    "install:app1": "cd ./app1 && yarn install",
+    "install:app2": "cd ./app2 && yarn install",
+    "install:portal": "cd ./portal && yarn install",
+    "install-all": "npm-run-all install:*",
+    "start:app1": "cd ./app1 && yarn serve",
+    "start:app2": "cd ./app2 && yarn serve",
+    "start:portal": "cd ./portal && yarn serve",
+    "start": "npm-run-all --parallel start:*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GOGOGOSIR/vue3-garfish-issure.git"
+  },
+  "author": "eric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GOGOGOSIR/vue3-garfish-issure/issues"
+  },
+  "homepage": "https://github.com/GOGOGOSIR/vue3-garfish-issure#readme",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
