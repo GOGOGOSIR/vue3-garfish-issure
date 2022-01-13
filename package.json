@@ -7,7 +7,7 @@
     "install:app1": "cd ./app1 && yarn install",
     "install:app2": "cd ./app2 && yarn install",
     "install:portal": "cd ./portal && yarn install",
-    "install-all": "npm-run-all install:*",
+    "install-all": "yarn install && npm-run-all install:*",
     "start:app1": "cd ./app1 && yarn serve",
     "start:app2": "cd ./app2 && yarn serve",
     "start:portal": "cd ./portal && yarn serve",
